@@ -1,0 +1,18 @@
+h1{
+  color:white;
+}
+html{
+
+  font-family: sans-serif;
+}
+body {
+    background-color: #20ADF8;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+.lastResult {
+    color: white;
+    padding: 3px;
+}
