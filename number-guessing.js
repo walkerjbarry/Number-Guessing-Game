@@ -7,7 +7,7 @@ let randomNumber = Math.floor(Math.random() * 100) + 1;
       let guessCount = 1;
       let resetButton;
 
-    function checkGuess() {
+    function checkGuess(event) {
       event.preventDefault();
       const userGuess = Number(guessField.value);
     if (guessCount === 1) {
